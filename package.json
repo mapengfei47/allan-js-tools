@@ -1,0 +1,22 @@
+{
+  "name": "allan-js-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && npm run build:types",
+    "build:types": "node scripts/buildTypes.mjs"
+  },
+  "keywords": [],
+  "author": "allanma",
+  "homepage": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dts-bundle-generator": "^9.5.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vite-plugin-banner": "^0.7.1"
+  }
+}
